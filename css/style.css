@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 15px;
+}
 :root{
     --cor-citacao:#61727C;
 }
@@ -28,6 +31,8 @@ p{
 }
 
 img{
+    max-width: 70%;
+    height: auto;
     margin-top: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
@@ -74,3 +79,17 @@ aside>p>a{
     font-family: "Inter", sans-serif;
     font-size: 18px;
 }
+
+@media (min-width: 769px) { 
+    main {
+        max-width: 1000px; 
+        margin: 20px auto; 
+        padding: 20px; 
+        background-color: #ffffff; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        border-radius: 8px; 
+    }
+    body{
+        background-color: #61727c49;
+    }
+    }
