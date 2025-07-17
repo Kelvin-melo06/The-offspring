@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');                                                              /* Font Inter, FONTE PARA PARAGRAFOS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');                                                              /* Fonte Roboto Mono, FONTE PARA CITAÇÕES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-citacao:#61727C;
+}
+
+h1,
+figure{
+    text-align: center;
+}
+
+h1,h2{
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+p{
+    text-align: justify;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+img{
+    margin-top: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.sobre{
+    margin: 80px 20px;
+}
+
+.citacao{
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-color: var(--cor-citacao);
+    line-height: 25px;
+}
+
+.curiosidades{
+    margin: 26px;
+    font-family: "Inter", sans-serif;
+}
+
+ul>li{
+    line-height: 30px;
+}
+
+.descricao{
+    font-size: 16px;
+    color: #BFBFBF;
+    font-style: italic;
+}
+
+aside{
+  margin: 20px;
+}
+
+aside>p>a{
+    text-decoration: none;
+    color: rgb(61, 61, 228);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
